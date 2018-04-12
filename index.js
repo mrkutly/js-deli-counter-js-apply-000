@@ -7,8 +7,9 @@ var katzDeliLine = [];
 //  return greeting;
 //}
 
-function takeANumber(katzDeliLine, ){
-  
+function takeANumber(katzDeliLine){
+  var number = katzDeliLine.length;
+  katzDeliLine.push(number);
 }
 
 function nowServing(katzDeliLine){
